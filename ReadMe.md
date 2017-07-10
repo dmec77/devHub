@@ -2,14 +2,14 @@
 
 ## Description
 
-The website will allow the user to make an account and search through shows from a third-party API, and then add these shows to a list of their favorites. All the shows have descriptions as well, so they can discover new programs to watch. They can also comment on shows, and see a list of all their favorites in their profile.
+
 
 ## Getting Started
 
-This is the proposal repository for our project. This project is split into two functional repros: our front-end React application and our back end Express API. These repros can be located:
 
+<!--
 - **Front**: [https://git.generalassemb.ly/jonnycakes/tvflix-front](https://git.generalassemb.ly/jonnycakes/tvflix-front)
-- **Back**: [https://git.generalassemb.ly/jonnycakes/tvflix-back](https://git.generalassemb.ly/jonnycakes/tvflix-back)
+- **Back**: [https://git.generalassemb.ly/jonnycakes/tvflix-back](https://git.generalassemb.ly/jonnycakes/tvflix-back) -->
 
 ---
 
@@ -23,21 +23,21 @@ Give examples
 
 ### ERD
 
-![ERD](./assets/erd.png)
+![ERD](./assets/images/erb.jpg)
 
 
 ### Wireframes
 
-![Wireframes](./assets/wireframe.jpg)
+![Wireframes](./assets/images/wireframes.jpg)
 
 ### Routes
 
-![routes](./assets/routes.jpg)
+<!-- ![routes](./assets/routes.jpg) -->
 
 
 ## User Stories
 
-[User Stories](https://trello.com/b/Jb9dkSaO/user-stories)
+(https://trello.com/b/0G94aySC/ga-final-project-devhub)
 
 ---
 
@@ -46,8 +46,6 @@ Give examples
 ```
 git remote add origin
 ```
-
-
 
 ```
 gem install rails --no-ri --no-rdoc
