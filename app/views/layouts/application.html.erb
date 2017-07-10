@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>DevHub</title>
+    <title>devHub</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -9,6 +9,11 @@
   </head>
 
   <body>
-    <%= yield %>
+    <!-- this is to include a static header -->
+  <%= render "layouts/header" %>
+
+  <%= yield %>
+  <!-- this is to include a static footer -->
+  <%= render "layouts/footer" %>
   </body>
 </html>

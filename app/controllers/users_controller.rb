@@ -7,6 +7,25 @@ class UsersController < ApplicationController
     @users = User.all
   end
 
+  def login
+  @user = User.find_by(email:params[:email])
+
+    if user
+
+        if user.authenticate(params[:password])
+            user.password = nil
+            jwt = JWT.encode(user, nil, false)
+
+            render :json => { token: jwt }, status: 201
+
+        else
+          render :json => { error: "Not authorized" }, status: 401
+        end
+
+    else
+      render :json => { error: "User not found by that email" }, status: 404
+    end
+
   # GET /users/1
   # GET /users/1.json
   def show

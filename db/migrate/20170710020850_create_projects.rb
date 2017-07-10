@@ -10,8 +10,7 @@ class CreateProjects < ActiveRecord::Migration[5.1]
       t.string :features
       t.string :bonus
       t.string :issues
-
-      t.timestamps
+      t.timestamps :created_at
     end
   end
 end
