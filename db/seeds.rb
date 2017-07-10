@@ -34,10 +34,11 @@ Project.create!([{
   technologies: " Rails & React ",
   features: " view of erd's, wireframes, user stories ",
   bonus: " edit the features ",
-  issues: " none yet! "
+  issues: " none yet! ",
+  user_id: 1
 },
 {
-  project_name: " devHub ",
+  project_name: " devHubPRACTICE ",
   user_stories: " https://trello.com/b/0G94aySC/ga-final-project-devhub ",
   wireframes: " https://github.com/dmec77/devHub/blob/master/app/assets/images/wireframes.jpg ",
   erd: " https://github.com/dmec77/devHub/blob/master/app/assets/images/erb.jpg ",
@@ -45,10 +46,11 @@ Project.create!([{
   technologies: " Rails & React ",
   features: " view of erd's, wireframes, user stories ",
   bonus: " edit the features ",
-  issues: " none yet! "
+  issues: " none yet! ",
+  user_id: 1
 },
 {
-  project_name: " devHub ",
+  project_name: " devHubSAMPLE ",
   user_stories: " https://trello.com/b/0G94aySC/ga-final-project-devhub ",
   wireframes: " https://github.com/dmec77/devHub/blob/master/app/assets/images/wireframes.jpg ",
   erd: " https://github.com/dmec77/devHub/blob/master/app/assets/images/erb.jpg ",
@@ -56,5 +58,6 @@ Project.create!([{
   technologies: " Rails & React ",
   features: " view of erd's, wireframes, user stories ",
   bonus: " edit the features ",
-  issues: " none yet! "
+  issues: " none yet! ",
+  user_id: 1
 }])
