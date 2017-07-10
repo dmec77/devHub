@@ -28,7 +28,7 @@ Give examples
 
 ### Wireframes
 
-![Wireframes](/app/assets/images/wireframes.jpg)
+![Wireframes](/app/assets/images/wireframes.jpeg)
 
 ### Routes
 
