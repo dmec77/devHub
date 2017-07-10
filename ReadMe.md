@@ -23,12 +23,12 @@ Give examples
 
 ### ERD
 
-![ERD](./app/assets/images/erb.jpg)
+![ERD](/app/assets/images/erb.jpg)
 
 
 ### Wireframes
 
-![Wireframes](./app/assets/images/wireframes.jpg)
+![Wireframes](/app/assets/images/wireframes.jpg)
 
 ### Routes
 
