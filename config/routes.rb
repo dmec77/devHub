@@ -5,6 +5,10 @@ Rails.application.routes.draw do
     resources :projects
 end
 
+resources :user do
+  resources :projects
+end
+
 
   resources :users, only: [:create] do
     collection do
